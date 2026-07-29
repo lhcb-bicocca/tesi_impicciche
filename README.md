@@ -99,6 +99,7 @@ from analysis_helpers.plotting import plot_hist
 
 The package is structured as follows:
 
+```
 my-project/
 ├── .github/
 │   └── workflows/
@@ -116,6 +117,7 @@ my-project/
 ├── pyproject.toml               # Project dependencies and metadata (uv)
 ├── README.md
 └── uv.lock                      # Lockfile for reproducible builds
+```
 
 It is suggested to write all the functions to the `mypkg` directory, eventually in multiple files.
 With this approach they will not always be accessible in the `macros`, but also in the `notebooks`.
