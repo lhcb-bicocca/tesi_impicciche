@@ -1,0 +1,20 @@
+name: Sync with Base Template
+
+on:
+  schedule:
+    # Runs every night at midnight
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Allows manual trigger
+
+jobs:
+  repo-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Actions Template Sync
+        uses: AndreasAugustin/actions-template-sync@v2
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          source_repo_path: lhcb-bicocca/pkg-template
+          upstream_branch: main
