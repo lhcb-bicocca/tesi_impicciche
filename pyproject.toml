@@ -1,5 +1,9 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
 [project]
-name = "tesi-impicciche"
+name = "mypkg"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -7,6 +11,12 @@ requires-python = ">=3.14"
 dependencies = [
     "analysis-helpers",
 ]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/mypkg"]
+
+[tool.uv]
+package = true
 
 [tool.uv.sources]
 analysis-helpers = { git = "ssh://git@github.com/cpviolation/analysis_helpers.git" }
