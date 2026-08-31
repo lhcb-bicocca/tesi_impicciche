@@ -1,0 +1,16 @@
+data:
+  - /data02/gr1/lhcb/tesi/impicciche/data/24c4a/mu/00407866_00000001_1.dvtuple_tau_to_mumumu.root
+mc-21513012:
+  - /data02/gr1/lhcb/tesi/impicciche/mc/24block8/21513012/00407827_00000001_1.dvtuple_tau_to_mumumu_mc.root
+mc-21513013:
+  - /data02/gr1/lhcb/tesi/impicciche/mc/24block8/21513013/00407819_00000001_1.dvtuple_tau_to_mumumu_mc.root
+mc-23173002:
+  - /data02/gr1/lhcb/tesi/impicciche/mc/24block8/23173002/00407855_00000001_1.dvtuple_tau_to_mumumu_mc.root
+mc-23173003:
+  - /data02/gr1/lhcb/tesi/impicciche/mc/24block8/23173003/00407843_00000001_1.dvtuple_tau_to_mumumu_mc.root
+mc-23513015:
+  - /data02/gr1/lhcb/tesi/impicciche/mc/24block8/23513015/00407811_00000001_1.dvtuple_tau_to_mumumu_mc.root
+mc-23513016:
+  - /data02/gr1/lhcb/tesi/impicciche/mc/24block8/23513016/00407799_00000001_1.dvtuple_tau_to_mumumu_mc.root
+mc-31113003:
+  - /data02/gr1/lhcb/tesi/impicciche/mc/24block8/31113003/00407835_00000001_1.dvtuple_tau_to_mumumu_mc.root
